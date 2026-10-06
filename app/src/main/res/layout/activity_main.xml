@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Intents y Funciones Android"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Prototipo 2 · Intents implícitos y explícitos"
+            android:textSize="16sp" />
+
+        <!-- ============ SENSORES ============ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔧 Dispositivo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLinterna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 ENCENDER LINTERNA" />
+
+        <Button
+            android:id="@+id/btnUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 OBTENER MI UBICACIÓN" />
+
+        <TextView
+            android:id="@+id/txtUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Ubicación aún no obtenida"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺️ VER UBICACIÓN EN GOOGLE MAPS (implícito)" />
+
+        <!-- ============ IMPLÍCITOS ============ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="🌐 Intents implícitos"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnImplicitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚀 MAPAS · WEB · LLAMAR · CORREO · SMS" />
+
+        <!-- ============ EXPLÍCITOS ============ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="📱 Intents explícitos"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSegundaVista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 IR A SEGUNDA VISTA" />
+
+        <Spinner
+            android:id="@+id/spLugar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 VER DETALLE (con extras + Thread)" />
+
+        <Button
+            android:id="@+id/btnFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 FORMULARIO (con resultado)" />
+
+        <Button
+            android:id="@+id/btnMapaInterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 MAPA INTERNO (envía coordenadas)" />
+
+    </LinearLayout>
+</ScrollView>
